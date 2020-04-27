@@ -1,0 +1,14 @@
+# My_First_C_Project
+#Description Of Project: We have write C program that results in giving which day it is and the month calendar for a given date in the dd-mm-yyyy format.
+
+#This Is How I Have Started: This is my first project in B-Tech on C language. As this is my first semester I’m a bit afraid of my professors So, I used meet my professor every day before I leave my college and say her what work I have done she always on every day asks me different things to do what I have actually done. Every Day after going home I used spend time on it and do the things what Mam needs. I’m little worried whether she will satisfy before my project evaluation day comes and asked her to tell all requirements and needs at once and she told me. I after going thinking how to do and what to do I remembered the logic which I used to solve in bit stat exam it is unique logic we see in programming but many people uses that logic in competitive exams.
+
+#The Logic Is This: Indexing starts with 0 in array Month code: 1 4 4 0 2 5 0 3 6 1 4 6 (Remember as :122 0 52 0 62 1 4 6) Year code: 0 6 4 2 (Remember as even numbers in reverse and 0 at first) Day code: 0 1 2 3 4 5 6 Saturday Sunday Monday Tuesday Wednesday Thursday Friday
+
+Example:-24/4/2020 Calculate century –2020/100 + 1=21 year code is 21%4 ==1 year code=6 Calculate month code as 4 month code=0 Formula: (Date+yearcode+monthcode+ last_two_digits_of_year +(last_two_digits_of_year/4))%7 (24+6+0+20+5) %7=55%7=6(day code obtained for given date)
+
+#This Is How I Completed My Project: Firstly I have stated doing it manually in paper by taking some examples and verified whether is working correctly or not. Then I started dividing the logic into pieces and writing programming for it in the paper and I used trace back it to ensure it gives correct results. The I used to do the programming in my laptop using turboC++ editor and executes it for different inputs. Likewise, I have completed all the modules(pieces of code). By doing this module testing we have m any advantages like error rate is reduced and time saving as we no need trace the whole code at once which takes a lot of time. Finally I have done integrate testing(testing the whole code). I have taken exactly 3 hours to do this whole process. Next day I presented this to my professor she asked me many questions about the logic and then encouraged me for my unique logic.
+
+#Some Things That I Have Learned From This Project Are: **In this project I have used plenty of comments to make others to understand my logic, but it doesn’t seems good. **I have found instead of using plenty of comments making the variable names meaning is the best way to make others to understand our logic I have rectified this problem from my next projects
+
+#Compilers In C That I Use: I know many compilers in C: turboC++ ,Gcc, Dev, Code Blocks.. I sometimes use online compilers like JDoodle, onlineGDB, codechef compiler…..
